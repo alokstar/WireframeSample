@@ -1,0 +1,182 @@
+.mainContainer{
+    margin:25px 25px 25px 25px;
+}
+
+.space{
+    margin-left: 100px;
+    margin-right:100px;
+}
+span{
+    color:white;
+    background-color: orangered;
+}
+.head{
+    /*display:inline-block ;*/
+    margin-left: 100px;
+    margin-right:100px;
+    padding-left: 19px;
+    height: 45%;
+}
+
+.dropbtn {
+    /*background-color: #4CAF50;*/
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    color: black;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: white;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+/*.dropdown:hover .dropbtn {*/
+/*background-color: #3e8e41;*/
+/*}*/
+
+ul,li{
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.logo{
+    color: orangered;
+    background-color: white;
+}
+
+.font1{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.bck1{
+    background-color: orangered;
+}
+
+
+input[type=text], select {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=number],input[type=email] {
+    width: 44.5%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea{
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+table{
+    width: 100%;
+}
+
+li{
+    color: black;
+}
+a:link {
+    color: black;
+}
+
+/* visited link */
+/*a:visited {*/
+    /*color: green;*/
+/*}*/
+
+/* mouse over link */
+a:hover {
+    color: black;
+    font-weight: bold;
+}
+
+/* selected link */
+a:active {
+    color:black;
+    /*font-weight: bolder;*/
+    /*text-decoration: orangered;*/
+    text-decoration: underline;
+}
+
+hr{
+    width: 90%;
+    align:left;
+    border: none;
+    height: 10px;
+    /* Set the hr color */
+    /*color: #333; !* old IE *!*/
+    background-color: #333; /* Modern Browsers */
+}
+
+/*#sub{*/
+    /*display: none;*/
+    /*position: absolute;*/
+/*}*/
+
+/*#sub li:hover{*/
+    /*display: block;*/
+/*}*/
+
+/*#navmenu .sub1 li:hover .sub2{*/
+    /*display: block;*/
+/*}*/
